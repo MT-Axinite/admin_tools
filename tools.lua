@@ -12,7 +12,7 @@ minetest.register_tool("staff_tools:tool", {
 		groupcaps = {
 			cracky = {times = {[1] = 0.0, [2] = 0.0, [3] = 0.0}, uses = 0, maxlevel = 3},
 			crumbly = {times = {[1] = 0.0, [2] = 0.0, [3] = 0.0}, uses = 0, maxlevel = 3},
-			snappy = {times = {[1] = 0.0, [2] = 0.0, [3] = 0.0}, uses = 0, maxlevel = 3},
+			choppy= {times = {[1] = 0.0, [2] = 0.0, [3] = 0.0}, uses = 0, maxlevel = 3},
 		},
 		damage_groups = {fleshy = 1},
 	},
